@@ -1,0 +1,8 @@
+1. Ensure you have osv and osv prerequisites installed, define path to
+osv sources by exporting OSV_HOME envvar export OSV_HOME=absolutepath ;
+2. Be ready to provide sudo authorization, to run osv image with networking support.
+3. To get access to the service you should not try to locate it on
+localhost, you have to use address which reported osv when ran an
+image, assume the address is eth0: 192.168.122.89
+4. Look a related presentation
+https://docs.google.com/presentation/d/1izZlzkAdLmkC7TfR09A9_qyw1NX6q-Swwh3uUMeXeGE/edit#slide=id.g4e7e88fa6_060
